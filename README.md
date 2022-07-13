@@ -4,7 +4,7 @@ Exchange Server is a trading backend with high-speed performance, designed for c
 
 ## Architecture
 
-![Architecture](https://user-images.githubusercontent.com/1209350/32476113-5ffc622a-c3b0-11e7-9755-924f17bcc167.jpeg)
+![Architecture](https://aneep.tech/match_engine/res/system_architechture.png)
 
 For this project, it is marked as Server in this picture.
 
