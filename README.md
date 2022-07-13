@@ -42,7 +42,7 @@ For this project, it is marked as Server in this picture.
 
 **Operating system**
 
-Ubuntu 14.04 or Ubuntu 16.04. Not yet tested on other systems.
+Ubuntu 16.04. Not yet tested on other systems.
 
 **Requirements**
 
