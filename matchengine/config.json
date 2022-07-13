@@ -25,23 +25,23 @@
     "cli": "tcp@127.0.0.1:7317",
     "db_log": {
         "host": "localhost",
-        "user": "user",
-        "pass": "pass",
+        "user": "root",
+        "pass": "mmSimu@3377@!",
         "name": "trade_log"
     },
     "db_history": {
         "host": "localhost",
-        "user": "user",
-        "pass": "pass",
+        "user": "root",
+        "pass": "mmSimu@3377@!",
         "name": "trade_history"
     },
     "assets": [
         {
-            "name": "BCH",
-            "prec_save": 20,
+            "name": "BTC",
+            "prec_save": 12,
             "prec_show": 8
         }, {
-            "name": "BTC",
+            "name": "TRX",
             "prec_save": 12,
             "prec_show": 8
         }, {
@@ -53,98 +53,459 @@
             "prec_save": 12,
             "prec_show": 8
         }, {
-            "name": "ETC",
+            "name": "XRP",
             "prec_save": 12,
             "prec_show": 8
         }, {
-            "name": "ZEC",
+            "name": "BCH",
             "prec_save": 12,
             "prec_show": 8
         }, {
-            "name": "XMR",
-            "prec_save": 12,
+            "name": "TEX",
+            "prec_save": 20,
             "prec_show": 8
         }, {
-            "name": "DSH",
-            "prec_save": 12,
+            "name": "AED",
+            "prec_save": 20,
             "prec_show": 8
-        }
+        }, {
+            "name": "USD",
+            "prec_save": 20,
+            "prec_show": 8
+        }, {
+            "name": "INR",
+            "prec_save": 20,
+            "prec_show": 8
+        }, {
+            "name": "USDT",
+            "prec_save": 20,
+            "prec_show": 8
+        }, {
+            "name": "USDC",
+            "prec_save": 20,
+            "prec_show": 8
+        }, {
+	    "name": "CHER",
+	    "prec_save": 20,
+	    "prec_show": 8
+	}
     ],
     "markets": [
         {
-            "name": "BTCBCH",
+            "name": "BTCAED",
             "stock": {
                 "name": "BTC",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "AED",
                 "prec": 8
             },
-            "min_amount": "0.001"
+            "min_amount": "0.00003"
         }, {
-            "name": "LTCBCH",
+            "name": "LTCAED",
             "stock": {
                 "name": "LTC",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "AED",
                 "prec": 8
             },
-            "min_amount": "0.001"
+            "min_amount": "0.009"
         }, {
-            "name": "ETHBCH",
+            "name": "ETHAED",
             "stock": {
                 "name": "ETH",
                 "prec": 8
             },
             "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "0.0005"
+        }, {
+            "name": "XRPAED",
+            "stock": {
+                "name": "XRP",
+                "prec": 8
+            },
+            "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "1.2"
+        }, {
+            "name": "BCHAED",
+            "stock": {
                 "name": "BCH",
+                "prec": 8
+            },
+            "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "0.002"
+        }, {
+            "name": "TRXAED",
+            "stock": {
+                "name": "TRX",
+                "prec": 8
+            },
+            "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "14"
+        }, {
+            "name": "BTCTEX",
+            "stock": {
+                "name": "BTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "TEX",
                 "prec": 8
             },
             "min_amount": "0.001"
         }, {
-            "name": "ETCBCH",
+            "name": "ETHTEX",
             "stock": {
-                "name": "ETC",
+                "name": "ETH",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "TEX",
                 "prec": 8
             },
             "min_amount": "0.001"
         }, {
-            "name": "ZECBCH",
+            "name": "XRPTEX",
             "stock": {
-                "name": "ZEC",
+                "name": "XRP",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "TEX",
                 "prec": 8
             },
             "min_amount": "0.001"
         }, {
-            "name": "XMRBCH",
+            "name": "LTCTEX",
             "stock": {
-                "name": "XMR",
+                "name": "LTC",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "TEX",
                 "prec": 8
             },
             "min_amount": "0.001"
         }, {
-            "name": "DSHBCH",
+            "name": "BCHTEX",
             "stock": {
-                "name": "DSH",
+                "name": "BCH",
                 "prec": 8
             },
             "money": {
+                "name": "TEX",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "BTCUSD",
+            "stock": {
+                "name": "BTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.00002"
+        }, {
+            "name": "ETHUSD",
+            "stock": {
+                "name": "ETH",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.0003"
+        }, {
+            "name": "XRPUSD",
+            "stock": {
+                "name": "XRP",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.8"
+        }, {
+            "name": "BCHUSD",
+            "stock": {
                 "name": "BCH",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.0014"
+        }, {
+            "name": "LTCUSD",
+            "stock": {
+                "name": "LTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.005"
+        }, {
+            "name": "TRXUSD",
+            "stock": {
+                "name": "TRX",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "11.11"
+        }, {
+            "name": "BTCINR",
+            "stock": {
+                "name": "BTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.000027"
+        }, {
+            "name": "ETHINR",
+            "stock": {
+                "name": "ETH",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.0004"
+        }, {
+            "name": "XRPINR",
+            "stock": {
+                "name": "XRP",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "1.01"
+        }, {
+            "name": "BCHINR",
+            "stock": {
+                "name": "BCH",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.0018"
+        }, {
+            "name": "LTCINR",
+            "stock": {
+                "name": "LTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.007"
+        }, {
+            "name": "TEXINR",
+            "stock": {
+                "name": "TEX",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "TRXINR",
+            "stock": {
+                "name": "TRX",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "TEXUSD",
+            "stock": {
+                "name": "TEX",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "TEXAED",
+            "stock": {
+                "name": "TEX",
+                "prec": 8
+            },
+            "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "BTCUSDT",
+            "stock": {
+                "name": "BTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.00002"
+        }, {
+            "name": "LTCUSDT",
+            "stock": {
+                "name": "LTC",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.005"
+        }, {
+            "name": "ETHUSDT",
+            "stock": {
+                "name": "ETH",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.0003"
+        }, {
+            "name": "XRPUSDT",
+            "stock": {
+                "name": "XRP",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.76"
+        }, {
+            "name": "BCHUSDT",
+            "stock": {
+                "name": "BCH",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.0014"
+        }, {
+            "name": "TEXUSDT",
+            "stock": {
+                "name": "TEX",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "TRXUSDT",
+            "stock": {
+                "name": "TRX",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "11.11"
+        }, {
+            "name": "CHERUSDT",
+            "stock": {
+                "name": "CHER",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "min_amount": "0.0001"
+        }, {
+            "name": "CHERUSDC",
+            "stock": {
+                "name": "CHER",
+                "prec": 8
+            },
+            "money": {
+                "name": "USDC",
+                "prec": 8
+            },
+            "min_amount": "0.0001"
+        }, {
+            "name": "USDTINR",
+            "stock": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "money": {
+                "name": "INR",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "USDTAED",
+            "stock": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "money": {
+                "name": "AED",
+                "prec": 8
+            },
+            "min_amount": "0.001"
+        }, {
+            "name": "USDTUSD",
+            "stock": {
+                "name": "USDT",
+                "prec": 8
+            },
+            "money": {
+                "name": "USD",
                 "prec": 8
             },
             "min_amount": "0.001"

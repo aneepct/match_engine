@@ -21,7 +21,7 @@
         "protocol": "chat"
     },
     "monitor": {
-        "bind": "tcp@0.0.0.0:8091",
+        "bind": "tcp@0.0.0.0:8090",
         "max_pkg_size": 1024
     },
     "worker_num": 1,

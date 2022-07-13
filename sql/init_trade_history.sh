@@ -1,8 +1,8 @@
 #!/bin/bash
 
 MYSQL_HOST="localhost"
-MYSQL_USER="user"
-MYSQL_PASS="pass"
+MYSQL_USER="root"
+MYSQL_PASS="mmSimu@3377@!"
 MYSQL_DB="trade_history"
 
 for i in `seq 0 99`
