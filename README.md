@@ -1,6 +1,6 @@
-# ViaBTC Exchange Server
+# Exchange Server
 
-ViaBTC Exchange Server is a trading backend with high-speed performance, designed for cryptocurrency exchanges. It can support up to 10000 trades every second and real-time user/market data notification through websocket.
+Exchange Server is a trading backend with high-speed performance, designed for cryptocurrency exchanges. It can support up to 10000 trades every second and real-time user/market data notification through websocket.
 
 ## Architecture
 
@@ -46,7 +46,7 @@ Ubuntu 14.04 or Ubuntu 16.04. Not yet tested on other systems.
 
 **Requirements**
 
-See [requirements](https://github.com/viabtc/viabtc_exchange_server/wiki/requirements). Install the mentioned system or library.
+See [requirements](https://github.com/aneepct/match_engine/wiki/requirements). Install the mentioned system or library.
 
 You MUST use the depends/hiredis to install the hiredis library. Or it may not be compatible.
 
@@ -79,7 +79,7 @@ matchengine
 
 ## API
 
-[HTTP Protocol](https://github.com/viabtc/viabtc_exchange_server/wiki/HTTP-Protocol) and [Websocket Protocol](https://github.com/viabtc/viabtc_exchange_server/wiki/WebSocket-Protocol) documents are available in Chinese. Should time permit, we will have it translated into English in the future.
+[HTTP Protocol](https://github.com/aneepct/match_engine/wiki/HTTP-Protocol) and [Websocket Protocol](https://github.com/aneepct/match_engine/wiki/WebSocket-Protocol) documents are available in Chinese. Should time permit, we will have it translated into English in the future.
 
 There is also a third-party [OpenRPC Document](https://github.com/ceyonur/viabtc-openrpc) available.
 
