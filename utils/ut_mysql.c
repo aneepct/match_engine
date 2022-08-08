@@ -12,7 +12,7 @@ MYSQL *mysql_connect(mysql_cfg *db)
     if (conn == NULL)
         return NULL;
 
-    my_bool reconnect = 1;
+    int reconnect = 1;
     if (mysql_options(conn, MYSQL_OPT_RECONNECT, &reconnect) != 0) {
         mysql_close(conn);
         return NULL;

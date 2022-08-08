@@ -24,15 +24,15 @@
     },
     "cli": "tcp@127.0.0.1:7317",
     "db_log": {
-        "host": "localhost",
-        "user": "user",
-        "pass": "pass",
+        "host": "matchenginev2.ckpbznpbbzzk.ap-south-1.rds.amazonaws.com",
+        "user": "root",
+        "pass": "6LiUDMY80kTfIqFo",
         "name": "trade_log"
     },
     "db_history": {
-        "host": "localhost",
-        "user": "user",
-        "pass": "pass",
+        "host": "matchenginev2.ckpbznpbbzzk.ap-south-1.rds.amazonaws.com",
+        "user": "root",
+        "pass": "6LiUDMY80kTfIqFo",
         "name": "trade_history"
     },
     "assets": [
