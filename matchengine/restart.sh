@@ -2,4 +2,5 @@
 
 killall -s SIGQUIT matchengine.exe
 sleep 1
-LD_PRELOAD=../librdkafka/src/librdkafka.so ./matchengine.exe config.json
+./matchengine.exe ./config.json
+#LD_PRELOAD=../librdkafka/src/librdkafka.so ./matchengine.exe config.json
